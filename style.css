@@ -106,9 +106,53 @@ img {
     line-height: 100px;
   }
 
-
-
-
 }
 /*/first_container*/
+/*steps_container*/
+@media screen and (max-width: 420px){
+
+  #steps .row>.left,#steps .row>.central,#steps .row>.right{
+    width: 100%;
+    display:inline-block;
+    text-align: left;
+  }
+
+  #steps>.row>h1{
+    color:red;
+    font-size: 100px;
+  }
+
+  #steps>.row>.left>img,#steps>.row>.central>img,#steps>.row>.right>img{
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+  }
+
+  #steps>.row>.left,#steps>.row>.central,#steps>.row>.right{
+    position: relative;
+  }
+
+  #steps>.row>.left>h3,#steps>.row>.central>h3,#steps>.row>.right>h3{
+    display: inline-block;
+    font-size: 50px;
+    color: blue;
+    position: absolute;
+    margin: 0 0 40px 80px;
+  }
+
+  #steps>.row>.left:not(img,h3),#steps>.row>.central:not(img,h3),#steps>.row>.right:not(img,h3){
+    font-size: 40px;
+    float: right;
+  }
+
+  #steps .row::after{
+    content: ("");
+    display: block;
+    clear: both;
+  }
+
+}
+
+
+/*steps_container*/
 /*/css_media_query*/
