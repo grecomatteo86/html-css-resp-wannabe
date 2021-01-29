@@ -151,7 +151,7 @@ img {
   }
 
   #why>.row>.first,#why>.row>.second,#why>.row>.third{
-    margin-top: 200px;
+    margin-top: 100px;
   }
 
   #why>.row>.first>img,#why>.row>.second>img,#why>.row>.third>img{
@@ -173,7 +173,7 @@ img {
     line-height: 100px;
   }
 
-  #why>.row>.first>hr,#why>.row>.second>hr{
+  #why>.row>.second>hr,#why>.row>.first>hr{
     display: none;
   }
 
