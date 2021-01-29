@@ -75,6 +75,10 @@ img {
 /*first_container*/
 @media screen and (max-width: 420px) {
 
+  #lezioni>.row{
+    background-color: lightgreen;
+  }
+
   #lezioni .row>.left,#lezioni .row>.right{
     width: 100%;
     display: block;
@@ -92,12 +96,13 @@ img {
     border-radius: 50%;
     object-fit: cover;
     border: 10px solid red;
+    background-color: white;
   }
 
   #lezioni .left h3,#lezioni .right h3{
     font-size: 80px;
     margin: 30px 0;
-    color: blue;
+    color: white;
   }
 
   #lezioni>.row>.left:not(img,h3),#lezioni>.row>.right:not(img,h3){
@@ -121,8 +126,9 @@ img {
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
-    border: 10px solid yellow;
+    border: 10px solid lightgreen;
     margin-top: 60px;
+    background-color: red;
   }
 
   #steps>.row>.left>h3,#steps>.row>.central>h3,#steps>.row>.right>h3{
@@ -139,11 +145,16 @@ img {
     font-size: 70px;
     font-weight: bold;
     line-height: 100px;
+  }
 
 }
 /*steps_container*/
 /*why_container*/
 @media screen and (max-width: 420px){
+
+  #why>.row{
+    background-color: red;
+  }
 
   #why>.row>h1{
     color:red;
@@ -164,7 +175,7 @@ img {
 
   #why>.row>.first>h3,#why>.row>.second>h3,#why>.row>.third>h3{
     font-size: 80px;
-    color: blue;
+    color: white;
   }
 
   #why>.row>.first:not(img,h3),#why>.row>.second:not(img,h3),#why>.row>.third:not(img,h3){
