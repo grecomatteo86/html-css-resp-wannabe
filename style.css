@@ -91,7 +91,7 @@ img {
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid red;
+    border: 10px solid red;
   }
 
   #lezioni .left h3,#lezioni .right h3{
@@ -121,7 +121,7 @@ img {
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid yellow;
+    border: 10px solid yellow;
     margin-top: 60px;
   }
 
@@ -142,4 +142,42 @@ img {
 
 }
 /*steps_container*/
+/*why_container*/
+@media screen and (max-width: 420px){
+
+  #why>.row>h1{
+    color:red;
+    font-size: 100px;
+  }
+
+  #why>.row>.first,#why>.row>.second,#why>.row>.third{
+    margin-top: 200px;
+  }
+
+  #why>.row>.first>img,#why>.row>.second>img,#why>.row>.third>img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 10px solid green;
+  }
+
+  #why>.row>.first>h3,#why>.row>.second>h3,#why>.row>.third>h3{
+    font-size: 80px;
+    color: blue;
+  }
+
+  #why>.row>.first:not(img,h3),#why>.row>.second:not(img,h3),#why>.row>.third:not(img,h3){
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 100px;
+  }
+
+  #why>.row>.first>hr,#why>.row>.second>hr{
+    display: none;
+  }
+
+
+}
+/*/why_container*/
 /*/css_media_query*/
