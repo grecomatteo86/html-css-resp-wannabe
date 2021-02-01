@@ -72,24 +72,20 @@ img {
   clear: both;
 }
 /*css_media_query*/
-/*first_container*/
 @media screen and (max-width: 420px) {
-
+  /*first_container*/
   #lezioni>.row{
     background-color: lightgreen;
   }
-
   #lezioni .row>.left,#lezioni .row>.right{
     width: 100%;
     display: block;
     margin: 40px 0;
   }
-
   #lezioni h1{
     color:red;
     font-size: 100px;
   }
-
   #lezioni img{
     width: 300px;
     height: 300px;
@@ -98,29 +94,22 @@ img {
     border: 10px solid red;
     background-color: white;
   }
-
   #lezioni .left h3,#lezioni .right h3{
     font-size: 80px;
     margin: 30px 0;
     color: white;
   }
-
   #lezioni>.row>.left:not(img,h3),#lezioni>.row>.right:not(img,h3){
     font-size: 70px;
     font-weight: bold;
     line-height: 100px;
   }
-
-}
-/*/first_container*/
-/*steps_container*/
-@media screen and (max-width: 420px){
-
+  /*/first_container*/
+  /*steps_container*/
   #steps>.row>h1{
     color:red;
     font-size: 100px;
   }
-
   #steps>.row>.left>img,#steps>.row>.central>img,#steps>.row>.right>img{
     width: 300px;
     height: 300px;
@@ -130,41 +119,31 @@ img {
     margin-top: 60px;
     background-color: red;
   }
-
   #steps>.row>.left>h3,#steps>.row>.central>h3,#steps>.row>.right>h3{
     font-size: 80px;
     color: blue;
     margin: 30px 0;
   }
-
   #steps>.row>.left,#steps>.row>.central,#steps>.row>.right{
     width: 100%;
   }
-
   #steps>.row>.left:not(img,h3),#steps>.row>.central:not(img,h3),#steps>.row>.right:not(img,h3){
     font-size: 70px;
     font-weight: bold;
     line-height: 100px;
   }
-
-}
-/*steps_container*/
-/*why_container*/
-@media screen and (max-width: 420px){
-
+  /*steps_container*/
+  /*why_container*/
   #why>.row{
     background-color: red;
   }
-
   #why>.row>h1{
     color:red;
     font-size: 100px;
   }
-
   #why>.row>.first,#why>.row>.second,#why>.row>.third{
     margin-top: 100px;
   }
-
   #why>.row>.first>img,#why>.row>.second>img,#why>.row>.third>img{
     width: 300px;
     height: 300px;
@@ -172,23 +151,18 @@ img {
     object-fit: cover;
     border: 10px solid green;
   }
-
   #why>.row>.first>h3,#why>.row>.second>h3,#why>.row>.third>h3{
     font-size: 80px;
     color: white;
   }
-
   #why>.row>.first:not(img,h3),#why>.row>.second:not(img,h3),#why>.row>.third:not(img,h3){
     font-size: 70px;
     font-weight: bold;
     line-height: 100px;
   }
-
   #why>.row>.second>hr,#why>.row>.first>hr{
     display: none;
   }
-
-
+  /*/why_container*/
 }
-/*/why_container*/
 /*/css_media_query*/
